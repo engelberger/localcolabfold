@@ -91,6 +91,7 @@ This message is due to Apple Silicon, but I think we can ignore it.
 
 ## Acknowledgments
 - The original colabfold was created by Sergey Ovchinnikov ([@sokrypton](https://twitter.com/sokrypton)), Milot Mirdita ([@milot_mirdita](https://twitter.com/milot_mirdita)) and Martin Steinegger ([@thesteinegger](https://twitter.com/thesteinegger)).
+- The original localcolabfold was created by Yoshitaka Moriwaki ([@Ag_smith](https://twitter.com/Ag_smith))
 
 ## How do I reference this work?
 
