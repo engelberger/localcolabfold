@@ -6,6 +6,15 @@ To Do: Implementation of command line arguments for `runner.py` (Sep.06, 2021)
 
 ## Installation
 
+### For Leftraru
+1. In order to install localcolabfold inside leftraru please follow this steps
+`srun -p gpus --time=00:25:00 --ntasks-per-node 1 --pty bash`
+2. Once inside the gpu instance
+`ml unload all
+ml fosscuda cuDNN`
+3. Download `install_colabfold_linux.sh` from this repository:<pre>$ wget https://raw.githubusercontent.com/engelberger/localcolabfold/main/install_colabfold_leftraru.sh</pre> and run it in the directory where you want to install:<pre>$ bash install_colabfold_linux.sh</pre>About 5 minutes later, `colabfold` directory will be created. Do not move this directory after the installation.
+4. The following steps are the same as in linux.
+
 ### For Linux
 
 1. Make sure `curl` and `wget` commands are already installed on your PC. If not present, you need install them at first. For Ubuntu, type `sudo apt -y install curl wget`.
